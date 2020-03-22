@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="parse.js"></script>
-	<title>parse</title>
+
+	<title>Guess the number game !</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="number.js"></script>
 </head>
 <body>
-	<div class="div">
-		<h1 class="head">QUESTION 4!</h1><br><br>
-		<button class="button" onclick="parse()">Press </button>
-		<button class="reset" id="reset" onclick="location.reload()">Reload</button><br>
-		<h3 class="details">Details</h3>
-		<p class="display" id="display"></p>
+
+	<h1 class="title">GUESS THE NUMBER!</h1>
+	<h2 class="count" id="count">Guess left:-10</h2>
+	<h2 class="help1" id="help1"></h2>
+	<h2 class="help2" id="help2"></h2>
+		<h3 class="elements" id="show"></h3>
+		<input class="input_block" type="text" id="array"><br>
+		<button class="go_button" onclick="new_element()">GO</button>
 	</div>
 </body>
 </html>
