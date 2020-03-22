@@ -1,2 +1,0 @@
-# holi
-HOLI ASSIGNMENT
